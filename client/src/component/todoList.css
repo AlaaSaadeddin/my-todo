@@ -1,0 +1,16 @@
+.container .ant-input {
+     width: 50%;
+     margin-top: 10px;
+     padding: 5px;
+}
+
+.demo-loadmore-list .ant-list-item {
+    width: 60%;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+.add-btn {
+  width: 13%;
+  margin-top: 10px;
+}
