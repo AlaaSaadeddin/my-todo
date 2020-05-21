@@ -54,7 +54,9 @@ const ListData = ({ data }) => {
 
 
   return (
-    <div className="container">
+    <div>
+      <div className="container" > 
+      <h1>My TODO</h1>
       <Input  placeholder="Title" name="title" onChange={updateTitle} />
       <Input
         placeholder="Description"
@@ -68,6 +70,9 @@ const ListData = ({ data }) => {
       >
         Add
       </Button>
+      </div>
+
+      <div className="list-container">
       <List
         className="demo-loadmore-list"
         itemLayout="horizontal"
@@ -99,6 +104,7 @@ const ListData = ({ data }) => {
           </List.Item>
         )}
       />
+      </div>
     </div>
   );
 };

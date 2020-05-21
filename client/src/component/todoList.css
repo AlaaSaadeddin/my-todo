@@ -1,16 +1,43 @@
-.container .ant-input {
-     width: 50%;
-     margin-top: 10px;
-     padding: 5px;
+body {
+  background-color: #daabf8;
 }
 
-.demo-loadmore-list .ant-list-item {
-    width: 60%;
-    margin-top: 30px;
-    margin-left: 100px;
+.container {
+  width: 100%;
+  background-color:#daabf8;
+  justify-items: center;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.container h1 {
+  color: #9c27b0;
+  font-family: 'Times New Roman', Times, serif;  
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+.container .ant-input {
+     width: 30%;
 }
 
 .add-btn {
-  width: 13%;
+  width: 10%;
+  background-color: #e040fb;
+  color: white;
+  font-weight: bold;
+}
+
+.list-container {
+  width: 100%;
+  background-color: #daabf8;
+  padding: 20px; 
   margin-top: 10px;
+}
+
+.demo-loadmore-list  .ant-list-item {
+  width: 70%;
+  margin-bottom: 10px;
+  margin-left: 200px;
+background-color: whitesmoke;
 }
